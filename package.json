@@ -1,0 +1,23 @@
+{
+  "name": "asfastas",
+  "version": "1.0.0-alpha",
+  "description": "A simple engine rendering; takes a directory of markdown objects and turns it into HTML files with the same structure.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghostbar/asfastas-js.git"
+  },
+  "author": "Jose-Luis Rivas <me@ghostbar.co>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghostbar/asfastas-js/issues"
+  },
+  "homepage": "https://github.com/ghostbar/asfastas-js#readme",
+  "dependencies": {
+    "marked": "^0.3.5",
+    "mustache": "^2.1.3"
+  }
+}
