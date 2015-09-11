@@ -11,7 +11,11 @@ fileTree.stdout.on('data', function (data) {
   data.toString().split('\n')
     .filter(function (i) { return i !== '' })
     .forEach(function (path) {
-      render(directory, path, outDirectory)
+      render({
+        basePath: directory,
+        path: path,
+        outputPath: outDirectory
+      })
     })
 })
 
